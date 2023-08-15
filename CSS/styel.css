@@ -491,12 +491,13 @@ body {
 /* End Contact */
 /* Start Footer */
 .footer {
+    display: flex;
+    flex-direction: column;
     background-color: var(--secondary-color);
     color: white;
     padding: 30px 10px;
     text-align: center;
     font-size: 18px;
-    position: relative;
 }
 
 .footer span {
@@ -505,8 +506,7 @@ body {
 }
 
 .footer .maker {
-    position: absolute;
-    right: 30px;
+    margin-top: 15px;
     animation-name: maker;
     animation-duration: 1s;
     animation-timing-function: linear;
