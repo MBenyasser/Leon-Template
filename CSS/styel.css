@@ -496,7 +496,8 @@ body {
     padding: 30px 10px;
     text-align: center;
     font-size: 18px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer span {
@@ -505,13 +506,13 @@ body {
 }
 
 .footer .maker {
-    position: absolute;
     right: 30px;
     animation-name: maker;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    margin-top: 10px;
 }
 
 @keyframes maker {
